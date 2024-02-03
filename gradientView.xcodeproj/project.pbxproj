@@ -10,9 +10,8 @@
 		4C8DD9DB2B6E7F8400EFE382 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8DD9DA2B6E7F8400EFE382 /* AppDelegate.swift */; };
 		4C8DD9DD2B6E7F8400EFE382 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8DD9DC2B6E7F8400EFE382 /* SceneDelegate.swift */; };
 		4C8DD9DF2B6E7F8400EFE382 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8DD9DE2B6E7F8400EFE382 /* ViewController.swift */; };
-		4C8DD9E22B6E7F8400EFE382 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8DD9E02B6E7F8400EFE382 /* Main.storyboard */; };
-		4C8DD9E42B6E7F8500EFE382 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C8DD9E32B6E7F8500EFE382 /* Assets.xcassets */; };
-		4C8DD9E72B6E7F8500EFE382 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8DD9E52B6E7F8500EFE382 /* LaunchScreen.storyboard */; };
+		4C8DD9F12B6E851900EFE382 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8DD9F02B6E851900EFE382 /* LaunchScreen.storyboard */; };
+		4C8DD9F32B6E862C00EFE382 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8DD9F22B6E862C00EFE382 /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +19,9 @@
 		4C8DD9DA2B6E7F8400EFE382 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C8DD9DC2B6E7F8400EFE382 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4C8DD9DE2B6E7F8400EFE382 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4C8DD9E12B6E7F8400EFE382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4C8DD9E32B6E7F8500EFE382 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4C8DD9E62B6E7F8500EFE382 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C8DD9E82B6E7F8500EFE382 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C8DD9F02B6E851900EFE382 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C8DD9F22B6E862C00EFE382 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +57,9 @@
 				4C8DD9DA2B6E7F8400EFE382 /* AppDelegate.swift */,
 				4C8DD9DC2B6E7F8400EFE382 /* SceneDelegate.swift */,
 				4C8DD9DE2B6E7F8400EFE382 /* ViewController.swift */,
-				4C8DD9E02B6E7F8400EFE382 /* Main.storyboard */,
-				4C8DD9E32B6E7F8500EFE382 /* Assets.xcassets */,
-				4C8DD9E52B6E7F8500EFE382 /* LaunchScreen.storyboard */,
+				4C8DD9F22B6E862C00EFE382 /* GradientView.swift */,
 				4C8DD9E82B6E7F8500EFE382 /* Info.plist */,
+				4C8DD9F02B6E851900EFE382 /* LaunchScreen.storyboard */,
 			);
 			path = gradientView;
 			sourceTree = "<group>";
@@ -125,9 +122,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C8DD9E72B6E7F8500EFE382 /* LaunchScreen.storyboard in Resources */,
-				4C8DD9E42B6E7F8500EFE382 /* Assets.xcassets in Resources */,
-				4C8DD9E22B6E7F8400EFE382 /* Main.storyboard in Resources */,
+				4C8DD9F12B6E851900EFE382 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,30 +135,12 @@
 			files = (
 				4C8DD9DF2B6E7F8400EFE382 /* ViewController.swift in Sources */,
 				4C8DD9DB2B6E7F8400EFE382 /* AppDelegate.swift in Sources */,
+				4C8DD9F32B6E862C00EFE382 /* GradientView.swift in Sources */,
 				4C8DD9DD2B6E7F8400EFE382 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		4C8DD9E02B6E7F8400EFE382 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C8DD9E12B6E7F8400EFE382 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4C8DD9E52B6E7F8500EFE382 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C8DD9E62B6E7F8500EFE382 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4C8DD9E92B6E7F8500EFE382 /* Debug */ = {
@@ -288,17 +265,14 @@
 		4C8DD9EC2B6E7F8500EFE382 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = gradientView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,17 +289,14 @@
 		4C8DD9ED2B6E7F8500EFE382 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = gradientView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
